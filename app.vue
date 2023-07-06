@@ -279,6 +279,7 @@ export default {
         antialias: true,
         alpha: true
       });
+      renderer.setClearColor (0xffffff, 0);
 
       let containerWidth = document.getElementById('canvas-container').clientWidth;
       let containerHeight = document.getElementById('canvas-container').clientHeight;
