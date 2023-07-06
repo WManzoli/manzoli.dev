@@ -5,7 +5,7 @@
         name="wmanzoli"
         content="Personal website."
     />
-    <Link rel="icon" type="image/png" sizes="32x32" href="./_nuxt/src/public/icons/favicon.ico"></Link>
+    <Link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon.ico"></Link>
   </Head>
   <div class="container">
     <div class="first-component">
@@ -19,7 +19,7 @@
           <img
               style="width: 32px; padding-right: 16px"
               class="interaction"
-              :src="'/_nuxt/src/public/icons/' + profile.user.flag"
+              :src="'/icons/' + profile.user.flag"
           />
           {{profile.user['living-at']}}
         </p>
@@ -94,7 +94,7 @@
             >
               <img class="interaction"
                    width="23px" style="margin-right: 1rem;"
-                   :src="'/_nuxt/src/public/icons/' + icon.src"
+                   :src="'/icons/' + icon.src"
               />
             </div>
           </div>
@@ -112,7 +112,7 @@
             >
               <img
                   class="university-photo"
-                  :src="'./_nuxt/src/public/icons/' + profile.education[0].src"
+                  :src="'/icons/' + profile.education[0].src"
               />
               <div style="">
                 <div
@@ -149,7 +149,7 @@
                 <img
                     :class="company.name + ' interaction'"
                     :width="company.width"
-                    :src="isDark ? '/_nuxt/src/public/icons/dark/' + company.src  : '/_nuxt/src/public/icons/light/' + company.src "
+                    :src="isDark ? '/icons/dark/' + company.src  : '/icons/light/' + company.src "
                 />
               </a>
             </div>
@@ -226,7 +226,7 @@
 </template>
 <script>
 import { onMounted, ref, nextTick } from 'vue'
-import profile from './src/public/profile.json';
+import profile from './public/profile.json';
 import * as THREE from 'three';
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 
@@ -234,11 +234,11 @@ export default {
   setup() {
 
     const textureURLs = {
-      dark: "./_nuxt/src/public/textures/night-world.png",
-      light: "./_nuxt/src/public/textures/day-world.png"
+      dark: "/textures/night-world.png",
+      light: "/textures/day-world.png"
     };
     const textureURL = ref(textureURLs.light);
-    const displacementURL = ref("./_nuxt/src/public/displacement.png");
+    const displacementURL = ref("/displacement.png");
     const isDark = ref(false)
     const currentRecommendation = ref(0)
     let scene, camera, renderer, earth, material, controls;
