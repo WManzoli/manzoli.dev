@@ -1,0 +1,105 @@
+{
+  "user":{
+    "name":"William Manzoli",
+    "role":"Front End Engineer",
+    "about":"revolutionizes society transforming lives with futuristic possibilities.",
+    "flag":"brasil.png",
+    "living-at":"📍 São Paulo - SP",
+    "username":"wmanzoli",
+    "email":"williammanzoli@gmail.com"
+  },
+  "jobs": {
+    "icons":[
+      {
+        "name": "Typescript",
+        "src": "typescript.png"
+      },
+      {
+        "name": "Vue",
+        "src": "vue.png"
+      },
+      {
+        "name": "React",
+        "src": "react.png"
+      },
+      {
+        "name": "Wordpress",
+        "src": "wordpress.png"
+      },
+      {
+        "name": "Node",
+        "src": "node.png"
+      },
+      {
+        "name": "Nest",
+        "src": "nest.png"
+      },
+      {
+        "name": "Git",
+        "src": "git.png"
+      },
+      {
+        "name": "AWS",
+        "src": "aws.png"
+      },
+      {
+        "name": "Datadog",
+        "src": "datadog.png"
+      }
+    ]
+  },
+  "companies":[
+    {
+      "name":"intrinsiq",
+      "src":"intrinsiq.png",
+      "link":"https://www.intrinsiq.com.br",
+      "width": "60%"
+    },
+    {
+      "name":"singulare",
+      "src":"singulare.png",
+      "link":"https://www.singulare.com.br",
+      "width": "60%"
+    },
+    {
+      "name":"fasters",
+      "src":"fasters.png",
+      "link":"https://www.fasters.com.br",
+      "width": "80%"
+    }
+  ],
+  "references":[
+    {
+      "picture":"https://media.licdn.com/dms/image/D4D03AQFiJOjStpH_GQ/profile-displayphoto-shrink_100_100/0/1687464000238?e=1694044800&v=beta&t=qLbhqOrczO_3TC88qc3nQ2drxYIGt8hn0YP1YW2JOak",
+      "name":"Raphael Fernandes Moreira",
+      "role":"Analista de Qualidade de Software | Cypress | JMeter",
+      "text":"Manzoli é um profissional engajado e comprometido com o seu trabalho, sempre prezando a comunicação e a qualidade. Com o seu jeito admirável e grandes conhecimentos, impulsiona e auxilia seus colegas de trabalhos."
+    },
+    {
+      "picture":"https://media.licdn.com/dms/image/C4E03AQEM5fFzmIVGJA/profile-displayphoto-shrink_100_100/0/1562408203495?e=1694044800&v=beta&t=mFBX0j6m559Q4y44aYuBzRDbJVzrvpbTbPYYY9oWZpw",
+      "name":"Thales Davila",
+      "role":"Senior Developer @ ADP",
+      "text":"Manzoli is such a great engineer. He always delivers tasks with excellent quality and value."
+    },
+    {
+      "picture":"https://media.licdn.com/dms/image/C4D03AQE5mUXKIrMJqA/profile-displayphoto-shrink_100_100/0/1612837179303?e=1694044800&v=beta&t=tslc0k5gCXuZhwD9lPPKqBU7vqYRDsXn9PFHDl6zxv8",
+      "name":"Misael Lima",
+      "role":"Software Developer | Node | Java | Vue.js | AWS | Kafka | Docker",
+      "text":"Manzoli, é um excelente profissional, está sempre buscando as melhores soluções e agregando valor de negócio aos projetos, sempre solicito a ajudar os colegas e buscando aprender mais e mais."
+    },
+    {
+      "picture":"https://media.licdn.com/dms/image/D4D03AQFUTCmKtnsehA/profile-displayphoto-shrink_100_100/0/1687713879866?e=1694044800&v=beta&t=h0d79pkWqDX-ocy7zQNy9mqL5QR2hulwDbo1GIkqVrs",
+      "name":"Herbert Leone Pinheiro",
+      "role":"Software Developer | Vue | Node | Nest | TypeScript",
+      "text":"Manzoli is a fantastic front-end developer and a joy to work with! Their technical skills are exceptional, and their sense of humor brightens up the workplace. A fantastic addition to any team!"
+    }
+  ],
+  "education":[
+    {
+      "course":"Analysis and systems development",
+      "university":"Centro Universitário FMU | FIAM-FAAM",
+      "date":"12/2020",
+      "src":"fmu.jpg"
+    }
+  ]
+}
