@@ -34,7 +34,7 @@
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
-                style="width: 32px;"
+                style="width: 32px; padding: 1rem"
             >
               <path
                   :fill="isDark ? '#fff' : '#000'"
@@ -450,7 +450,7 @@ html * {
   }
   .name {
     font-weight: bold;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     letter-spacing: 0.5rem;
   }
   .role {
