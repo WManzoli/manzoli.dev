@@ -68,36 +68,41 @@
       "width": "80%"
     }
   ],
-  "references":[
-    {
-      "picture":"https://media.licdn.com/dms/image/D4D03AQFiJOjStpH_GQ/profile-displayphoto-shrink_100_100/0/1687464000238?e=1694044800&v=beta&t=qLbhqOrczO_3TC88qc3nQ2drxYIGt8hn0YP1YW2JOak",
-      "name":"Raphael Fernandes Moreira",
-      "role":"Analista de Qualidade de Software | Cypress | JMeter",
-      "text":"Manzoli é um profissional engajado e comprometido com o seu trabalho, sempre prezando a comunicação e a qualidade. Com o seu jeito admirável e grandes conhecimentos, impulsiona e auxilia seus colegas de trabalhos."
+  "references":{
+    "blank": {
+      "picture":"blank-avatar.jpg"
     },
-    {
-      "picture":"https://media.licdn.com/dms/image/C4E03AQEM5fFzmIVGJA/profile-displayphoto-shrink_100_100/0/1562408203495?e=1694044800&v=beta&t=mFBX0j6m559Q4y44aYuBzRDbJVzrvpbTbPYYY9oWZpw",
-      "name":"Thales Davila",
-      "role":"Senior Developer @ ADP",
-      "text":"Manzoli is such a great engineer. He always delivers tasks with excellent quality and value."
-    },
-    {
-      "picture":"https://media.licdn.com/dms/image/C4D03AQE5mUXKIrMJqA/profile-displayphoto-shrink_100_100/0/1612837179303?e=1694044800&v=beta&t=tslc0k5gCXuZhwD9lPPKqBU7vqYRDsXn9PFHDl6zxv8",
-      "name":"Misael Lima",
-      "role":"Software Developer | Vue | Node | Nest | TypeScript",
-      "text":"Manzoli, é um excelente profissional, está sempre buscando as melhores soluções e agregando valor de negócio aos projetos, sempre solicito a ajudar os colegas e buscando aprender mais e mais."
-    },
-    {
-      "picture":"https://media.licdn.com/dms/image/D4D03AQFUTCmKtnsehA/profile-displayphoto-shrink_100_100/0/1687713879866?e=1694044800&v=beta&t=h0d79pkWqDX-ocy7zQNy9mqL5QR2hulwDbo1GIkqVrs",
-      "name":"Herbert Leone Pinheiro",
-      "role":"Software Developer | Node | Java | Vue.js | AWS | Kafka | Docker",
-      "text":"Manzoli is a fantastic front-end developer and a joy to work with! Their technical skills are exceptional, and their sense of humor brightens up the workplace. A fantastic addition to any team!"
-    }
-  ],
+    "linkedin": [
+      {
+        "picture":"https://media.licdn.com/dms/image/D4D03AQFiJOjStpH_GQ/profile-displayphoto-shrink_100_100/0/1687464001709?e=1705536000&v=beta&t=kaQ3Tb6iSr6dL9_5XDLuRsMEJSG3--GsjmIGpdsoWvQ",
+        "name":"Raphael Fernandes Moreira",
+        "role":"Analista de Qualidade de Software | Cypress | JMeter",
+        "text":"Manzoli é um profissional engajado e comprometido com o seu trabalho, sempre prezando a comunicação e a qualidade. Com o seu jeito admirável e grandes conhecimentos, impulsiona e auxilia seus colegas de trabalhos."
+      },
+      {
+        "picture":"https://media.licdn.com/dms/image/C4E03AQEM5fFzmIVGJA/profile-displayphoto-shrink_100_100/0/1562408205142?e=1705536000&v=beta&t=yWCKlomwO3QrO_icmt5T34qLme4L6iJLXggeX0mQjNg",
+        "name":"Thales Davila",
+        "role":"Senior Developer @ ADP",
+        "text":"Manzoli is such a great engineer. He always delivers tasks with excellent quality and value."
+      },
+      {
+        "picture":"https://media.licdn.com/dms/image/C4D03AQE5mUXKIrMJqA/profile-displayphoto-shrink_100_100/0/1612837181820?e=1705536000&v=beta&t=51icFCwqj8tBQUh-qoOrdzeTMiA1n7KmqyQT-Ftvf5Y",
+        "name":"Misael Lima",
+        "role":"Software Developer | Vue | Node | Nest | TypeScript",
+        "text":"Manzoli, é um excelente profissional, está sempre buscando as melhores soluções e agregando valor de negócio aos projetos, sempre solicito a ajudar os colegas e buscando aprender mais e mais."
+      },
+      {
+        "picture":"https://media.licdn.com/dms/image/D4D03AQFUTCmKtnsehA/profile-displayphoto-shrink_100_100/0/1687713880990?e=1705536000&v=beta&t=gH0df6TI5uVn1ngffS0xsk42Dgnu_zcdbOYM1kRGvms",
+        "name":"Herbert Leone Pinheiro",
+        "role":"Software Developer | Node | Java | Vue.js | AWS | Kafka | Docker",
+        "text":"Manzoli is a fantastic front-end developer and a joy to work with! Their technical skills are exceptional, and their sense of humor brightens up the workplace. A fantastic addition to any team!"
+      }
+    ]
+  },
   "education":[
     {
       "course":"Analysis and systems development",
-      "university":"Centro Universitário FMU | FIAM-FAAM",
+      "university":"Centro Universitário FMU",
       "date":"12/2020",
       "src":"fmu.jpg"
     }

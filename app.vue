@@ -177,7 +177,8 @@
               <img
                   id="recom"
                   class="recommendation-photo"
-                  :src="profile.references[currentRecommendation]['picture']"
+                  :src="profile.references.linkedin[currentRecommendation]['picture']"
+                  @error="imageUrlAlt"
               />
               <div style="width: 100%">
                 <div
@@ -192,13 +193,13 @@
                 >
                   <div style="padding-left: 1rem">
                     <p class="recommendation-name">
-                      {{ profile.references[currentRecommendation]['name'] }}
+                      {{ profile.references.linkedin[currentRecommendation]['name'] }}
                     </p>
                     <p class="recommendation-role">
-                      {{ profile.references[currentRecommendation]['role'] }}
+                      {{ profile.references.linkedin[currentRecommendation]['role'] }}
                     </p>
                     <p id="recom" class="recommendation-text">
-                      "{{ profile.references[currentRecommendation]['text'] }}"
+                      "{{ profile.references.linkedin[currentRecommendation]['text'] }}"
                     </p>
                   </div>
                 </div>
@@ -212,7 +213,7 @@
                 gap: 1rem;
               "
             >
-              <span v-for="(item, index) in profile.references" :key="index">
+              <span v-for="(item, index) in profile.references.linkedin" :key="index">
                 <div
                     @click="setRecommendation(index)"
                     :style="index === currentRecommendation ? 'width: 10px; height: 10px; background: white; border-radius: 16px; border: 1px solid gray' : 'width: 10px; height: 10px; background: gray; border-radius: 16px;'"
@@ -268,7 +269,9 @@ export default {
       material.map = newTexture;
       material.needsUpdate = true;
     };
-
+    const imageUrlAlt = ( e ) => {
+      e.target.src = '/icons/' + profile.references.blank.picture
+    }
     onMounted(() => {
       scene = new THREE.Scene();
       camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.01, 1000);
@@ -355,7 +358,7 @@ export default {
       })
 
       setInterval(function () {
-        if (currentRecommendation.value < profile.references.length - 1) {
+        if (currentRecommendation.value < profile.references.linkedin.length - 1) {
           setRecommendation(currentRecommendation.value + 1)
         } else {
           setRecommendation(0)
@@ -371,6 +374,7 @@ export default {
       currentRecommendation,
       setRecommendation,
       changeTheme,
+      imageUrlAlt,
       isDark
     };
   }
